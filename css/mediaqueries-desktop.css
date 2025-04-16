@@ -1,0 +1,55 @@
+/******** INICIO MEDIA QUERIES DISPOSITIVOS ENTRE 769PX ATÉ 1365PX *********/
+@media (min-width: 769px) and (max-width: 1365px) {
+
+    /******** INICIO ESTILOS GERAIS ********/
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    p,
+    li,
+    a {
+        font-size: 16px;
+    }
+
+    /******** FIM ESTILOS GERAIS ********/
+
+     /***** INICIO ESTILO ESPECIFICO SEÇÃO SOBRE - CLASSE DESTAQUE *******/
+
+     .destaque {
+        border-left: none;
+        width: 100%;
+        margin: 30px 0 10px 0;
+    }
+
+    .destaque p {
+        text-align: center;
+    }
+
+     /***** INICIO ESTILO ESPECIFICO SEÇÃO SOBRE - CLASSE DESTAQUE *******/
+
+}
+/******** FIM MEDIA QUERIES DISPOSITIVOS ENTRE 769PX ATÉ 1365PX *********/
+
+ /******** ESTILO ESPECIFICO SEÇÃO SOBRE - CLASSE DESTAQUE ***********/
+ @media (min-width: 1366px) {
+    .destaque {
+        border-left: none;
+        width: 50%;
+        margin: 30px 0 10px 0;
+    }
+
+    .destaque p {
+        text-align: center;
+    }
+ }
+
+ /****** FIM ESTILO ESPECIFICO SEÇÃO SOBRE - CLASSE DESTAQUE ***********/
