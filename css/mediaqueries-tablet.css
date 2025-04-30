@@ -2,21 +2,21 @@
 @media (min-width: 426px) and (max-width: 768px) {
     /******** INICIO ESTILOS GERAIS ********/
     h1 {
-        font-size: 21px;
+        font-size: 22px;
     }
 
     h2 {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     h3 {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     p,
     li,
     a {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     /******** FIM ESTILOS GERAIS ********/
@@ -62,9 +62,14 @@
     /********** INICIO SEÇÃO SOBRE ********/
         
          /***** INICIO ESTILOS ESPECIFICOS CLASSE GALERIA - 3ª IMAGEM **/
-          @media (min-width: 426px) and (max-width: 687px) {
+          @media (min-width: 426px) and (max-width: 702px) {
             .galeria img:nth-child(3) {
                 margin-top: 20px;
+            }
+
+            .galeria img {
+                width: 40%;
+                height: auto;
             }
           }
          /***** FIM ESTILOS ESPECIFICOS CLASSE GALERIA - 3ª IMAGEM ****/
@@ -98,9 +103,17 @@
         width: 100%;
     }
 
+    #atuacao {
+       height: auto;
+    }
+
     #atuacao ul {
         width: 40%;
         text-align: justify;
+    }
+
+    #atuacao ul li:last-child {
+        white-space: wrap;
     }
 
     #atuacao li:before {
@@ -120,14 +133,12 @@
         justify-content: space-between;
     }
 
+    #contato ul li {
+        white-space: nowrap;
+    }
+
     
     /*********** FIM CLASSE SEÇÃO ********/
-}
-
-
-/***** ESTILOS ESPECIFICOS CLASSE SEÇÃO - ENTRE 440PX ATÉ 768PX ******/
-@media (min-width: 440px) and (max-width: 768px) {
-    
 }
 
 /***** ESTILOS ESPECIFICOS CLASSE SEÇÃO - ENTRE 440PX ATÉ 768PX ******/

@@ -4,21 +4,21 @@
 
     /****** Estilos gerais *********/
     h1 {
-        font-size: 19px;
+        font-size: 21px;
     }
 
     h2 {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     h3 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     p,
     li,
     a {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     /****** Fim Estilos gerais *********/
@@ -31,7 +31,7 @@
     }
 
     .topo nav ul {
-        width: 200px;
+        width: 250px;
     }
 
     /*****FIM ESTILOS SEÇÃO TOPO*******/
@@ -117,8 +117,12 @@
     }
 
     #atuacao ul {
-        width: 50%;
+        width: 51%;
         text-align: justify;
+    }
+
+    #atuacao ul li:last-child {
+        white-space: wrap;
     }
 
     #atuacao li:before {
